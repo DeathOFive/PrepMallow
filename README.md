@@ -1,8 +1,18 @@
 # PrepMallow
 
-PrepMallow is a free browser-based toolkit for getting images, PDFs, and other files ready for online forms, email, and sharing. Compress a photo to a target KB size, turn several pictures into one PDF, or check whether a file meets an upload limit.
+PrepMallow is a free toolkit for getting images, PDFs, and other files ready for online forms, email, and sharing. Compress a photo to a target KB size, turn several pictures into one PDF, or check whether a file meets an upload limit.
 
-**[Open PrepMallow](https://saaimsohail.com/prepmallow/)**
+**[Open PrepMallow on the web](https://saaimsohail.com/prepmallow/) · [Download the Android preview](https://github.com/DeathOFive/PrepMallow/releases/download/v1.0.0-preview/PrepMallow-v1.0.0-preview.apk)**
+
+## Install on Android
+
+The Android preview bundles all 17 tools for offline use. It requires **Android 10 or newer** and **Android System WebView 110 or newer**.
+
+1. Download `PrepMallow-v1.0.0-preview.apk` on your Android phone.
+2. Open the APK from Downloads. If Android prompts, choose **Allow from this source** for the app that opened it, then return and tap **Install**.
+3. Open **PrepMallow Preview**, choose a tool and select a file. Tap **Save** or **Share** when your result is ready.
+
+[Release notes and SHA-256 checksum](https://github.com/DeathOFive/PrepMallow/releases/tag/v1.0.0-preview).
 
 ## What you can do
 
@@ -15,10 +25,8 @@ PrepMallow is a free browser-based toolkit for getting images, PDFs, and other f
 
 ## Example
 
-A form asks for a JPG under 200 KB and exactly 600 × 600 pixels. Open **Compress images**, set the size limit and dimensions, then download the result. Use **Check file details** to verify the copy before submitting it.
+A form asks for a JPG under 200 KB and exactly 600 × 600 pixels. Open **Compress images**, set the size limit and dimensions, then save the result. Use **Check file details** to verify the copy before submitting it.
 
 ## File privacy
 
-PrepMallow processes the files you select in your browser. The site delivers the pages and processing code, while file contents and filenames stay on your device. [Read about file handling](https://saaimsohail.com/prepmallow/privacy/).
-
-This repository contains product documentation. The tools run on the [PrepMallow website](https://saaimsohail.com/prepmallow/).
+PrepMallow processes the files you select on your device. The Android app works offline, and the web version processes your files in your browser. [Read about file handling](https://saaimsohail.com/prepmallow/privacy/).

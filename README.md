@@ -70,9 +70,10 @@ are not included.
 
 ## F-Droid
 
-The author authorizes inclusion in F-Droid. Packaging preparation and codec
-review notes are in [FDROID.md](FDROID.md). PrepMallow is not yet listed in the
-official F-Droid repository; an inclusion request still requires review.
+The [packaging request #4865](https://gitlab.com/fdroid/rfp/-/work_items/4865) was submitted on 25 November 2026.
+It is awaiting review; PrepMallow is not yet listed in the official F-Droid
+repository. Packaging preparation and codec review notes are in
+[FDROID.md](FDROID.md).
 
 ## License
 

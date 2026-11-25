@@ -1,10 +1,18 @@
-# F-Droid packaging request draft
+# F-Droid packaging request
 
-Status: prepared; not submitted. GitLab authentication is still required.
+Status: submitted on 25 November 2026 as [fdroid/rfp#4865](https://gitlab.com/fdroid/rfp/-/work_items/4865).
+Awaiting review; HEIC/PDF codec source-build requirements remain open.
 
-Proposed issue title: Request for Packaging: PrepMallow
+Issue title: Request for Packaging: PrepMallow
 
 ---
+
+* [ ] Full inclusion-policy compliance requires packager review of the codec source builds documented below.
+* [x] The app is not already listed in fdroiddata or its issue/merge-request tracker.
+* [x] No existing PrepMallow packaging request was found.
+* [x] The upstream repository includes Fastlane descriptions, icon, screenshots and changelog.
+* [x] The original app author authorizes inclusion.
+* [ ] Optional donation.
 
 #### APPLICATION ID: com.saaimsohail.prepmallow.mobile
 
@@ -43,4 +51,9 @@ The application is fully bundled and does not request the INTERNET permission. N
 
 The historical v1.0.1 tag contains documentation only and predates source publication. Please pin the source commit above for the initial review rather than that old tag.
 
-The app was first released on GitHub on 11 November 2026 and is early in its public development. The existing APK release is available at https://github.com/DeathOFive/PrepMallow/releases/tag/v1.0.1. Public searches on 25 November 2026 did not find an existing PrepMallow F-Droid listing or packaging request; please check for duplicates before opening another request.
+The app was first released on GitHub on 11 November 2026 and is early in its public development. The existing APK release is available at https://github.com/DeathOFive/PrepMallow/releases/tag/v1.0.1. The F-Droid packaging-request tracker and fdroiddata issues and merge requests were checked for PrepMallow on 25 November 2026; no existing request was found.
+
+**Why add this app:** It provides offline file preparation for document-upload forms and sharing, with native Android file picking, saving and sharing rather than sending documents to a remote service.
+
+**Summary:** Prepare photos, PDFs and ZIPs offline for forms, email and sharing
+

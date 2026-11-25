@@ -4,6 +4,10 @@ PrepMallow's author authorizes inclusion in F-Droid. The Android application and
 the bundled PrepMallow web-tool code in this repository are GPL-3.0-only.
 Third-party components retain the licenses listed in `THIRD_PARTY.md`.
 
+Tracking request: [fdroid/rfp#4865](https://gitlab.com/fdroid/rfp/-/work_items/4865), submitted on
+25 November 2026. The request is awaiting review, including the codec build
+requirements below. This is not an approved F-Droid listing.
+
 - Name: PrepMallow
 - Application ID: `com.saaimsohail.prepmallow.mobile`
 - Version name / code: `1.0.1` / `2`

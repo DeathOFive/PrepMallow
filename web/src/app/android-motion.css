@@ -1,0 +1,113 @@
+/* Copyright (C) 2026 Saaim Sohail
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --pm-enter-easing: cubic-bezier(.22, .72, .25, 1);
+    --pm-tap-easing: cubic-bezier(.25, .75, .3, 1);
+  }
+
+  .app-intro,
+  .app-search,
+  .app-filters,
+  .app-privacy,
+  .app-tool-intro,
+  .app-import-warning {
+    animation: pm-rise 280ms var(--pm-enter-easing) backwards;
+  }
+
+  .app-search { animation-delay: 42ms; }
+  .app-filters { animation-delay: 76ms; }
+
+  .app-quick-card {
+    animation: pm-rise 265ms var(--pm-enter-easing) 80ms backwards;
+  }
+
+  .app-quick-card:nth-child(2) { animation-delay: 115ms; }
+  .app-quick-card:nth-child(3) { animation-delay: 150ms; }
+  .app-quick-card:nth-child(4) { animation-delay: 185ms; }
+
+  .app-home .app-tool-group,
+  .app-tool-screen .work-files,
+  .app-tool-screen .work-options,
+  .app-related {
+    animation: pm-rise 255ms var(--pm-enter-easing) 55ms backwards;
+  }
+
+  .app-tool-screen .work-options { animation-delay: 90ms; }
+  .app-related { animation-delay: 120ms; }
+
+  .app-intro-art .app-art-sheet {
+    animation: pm-sheet-float 3.5s ease-in-out 2;
+  }
+
+  .app-art-sheet.photo { --pm-float-x: -4px; --pm-float-y: -7px; }
+  .app-art-sheet.document { --pm-float-x: 4px; --pm-float-y: -9px; animation-delay: 200ms; }
+  .app-art-sheet.archive { --pm-float-x: -2px; --pm-float-y: -5px; animation-delay: 390ms; }
+
+  .app-open,
+  .app-quick-card,
+  .app-tool-row,
+  .app-wordmark,
+  .app-icon-button {
+    transition: scale 150ms var(--pm-tap-easing);
+  }
+
+  .app-open:active:not(:disabled),
+  .app-quick-card:active,
+  .app-tool-row:active,
+  .app-wordmark:active,
+  .app-icon-button:active {
+    scale: .975;
+    transition-duration: 75ms;
+  }
+
+  .app-filters button {
+    transition: background-color 170ms ease, border-color 170ms ease, color 170ms ease;
+  }
+
+  .app-bookmark.is-saved svg {
+    animation: pm-bookmark 250ms var(--pm-enter-easing);
+  }
+
+  .app-tool-screen .entry,
+  .app-tool-screen .result-section {
+    animation: pm-rise 235ms var(--pm-enter-easing) backwards;
+  }
+
+  .app-tool-screen .result-item:nth-child(-n + 4) {
+    animation: pm-rise 245ms var(--pm-enter-easing) 46ms backwards;
+  }
+
+  .app-tool-screen .result-item:nth-child(2) { animation-delay: 78ms; }
+  .app-tool-screen .result-item:nth-child(3) { animation-delay: 110ms; }
+  .app-tool-screen .result-item:nth-child(4) { animation-delay: 142ms; }
+
+  .file-dialog[open] .dialog-content {
+    animation: pm-rise 210ms var(--pm-enter-easing) backwards;
+  }
+
+  .file-dialog[open]::backdrop {
+    animation: pm-fade 180ms ease-out backwards;
+  }
+
+  @keyframes pm-rise {
+    from { opacity: 0; transform: translateY(9px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pm-fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes pm-sheet-float {
+    0%, 100% { translate: 0 0; }
+    50% { translate: var(--pm-float-x) var(--pm-float-y); }
+  }
+
+  @keyframes pm-bookmark {
+    0%, 100% { scale: 1; }
+    45% { scale: 1.17; }
+  }
+}

@@ -1,0 +1,5 @@
+// Copyright (C) 2026 Saaim Sohail
+// SPDX-License-Identifier: GPL-3.0-only
+plugins {
+    id 'com.android.application' version '8.13.2' apply false
+}

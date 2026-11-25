@@ -1,0 +1,22 @@
+# Generated files and local configuration
+.gradle/
+**/build/
+**/node_modules
+**/dist/
+local.properties
+.idea/
+*.iml
+.DS_Store
+*.log
+# Signing material stays private
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+keystore.properties
+.env
+.env.*
+# Release binaries are distributed separately
+*.apk
+*.aab

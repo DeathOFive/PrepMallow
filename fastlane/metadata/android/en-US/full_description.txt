@@ -1,0 +1,28 @@
+Get your files ready to send. PrepMallow offers 17 tools for photos, PDFs and ZIPs, with processing on your device and no account required.
+
+Images
+• Compress photos to a target file size.
+• Resize to exact dimensions or fit inside a box.
+• Convert HEIC, JPG, PNG and WebP images.
+• Crop, rotate and flip photos.
+• Remove image metadata from a new copy.
+
+PDFs
+• Combine photos into a PDF.
+• Merge documents and select page ranges.
+• Reorder, rotate, extract and split pages.
+• Export PDF pages as images.
+• Compress scanned or photo-heavy PDFs.
+• Extract selectable text.
+
+File utilities
+• Add text watermarks to photos or PDF pages.
+• Rename files in batches.
+• Create ZIP archives, or browse and extract their contents.
+• Check file size, format and image dimensions against a form's requirements.
+
+Use Android's file and folder pickers to choose documents, send files to PrepMallow from another app, and save or share the results through Android's system dialogs.
+
+All tools are bundled in the app and work offline. PrepMallow does not request the Internet permission and includes no advertising or analytics SDKs.
+
+Requires Android 10 or newer and Android System WebView 110 or newer. Encrypted PDFs, password-protected ZIPs, ZIP64 archives and OCR of image-only scans are not supported. Compression results depend on the input.

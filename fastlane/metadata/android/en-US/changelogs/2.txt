@@ -1,0 +1,1 @@
+Home cards, tool screens, selected files, results and previews animate into view. Taps and bookmarks give immediate feedback. Animations respect reduced-motion settings. The launcher name is PrepMallow. Full Android and bundled web-tool source is now available under GPLv3, with build instructions and third-party notices.
